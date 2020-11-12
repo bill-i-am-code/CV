@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
+.wrapper{
+max-width: 800px;
+margin: 0 auto;
+}
+
 html{
 	font-family: 'Lato', sans-serif;
 }
@@ -20,10 +25,7 @@ h3{
 	color: grey;
 }
 
-.wrapper{
-width: 800px;
-margin: 0 auto;
-}
+
 
 .col1{
 	width: 25%;
