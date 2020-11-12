@@ -8,3 +8,21 @@ html{
 width: 800px;
 margin: 0 auto;
 }
+.col1{
+	width: 25%;
+	float: left;
+}
+.col2{
+	width: 75%;
+	float: right;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul{
+	list-style: none;
+	padding-left: 0;
+}
